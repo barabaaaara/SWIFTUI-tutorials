@@ -15,6 +15,7 @@ struct LandmarkRow: View {
             landmark.image
                 .resizable()
                 .frame(width: 50, height: 50)
+                .cornerRadius(15)//角を丸くする時に使う
             Text(landmark.name)
             Spacer()
         }
