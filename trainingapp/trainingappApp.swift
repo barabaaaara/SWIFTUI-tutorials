@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-@main
+@main//エントリーポイント
 struct trainingappApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView()//ContentViewを出す
         }
     }
 }
