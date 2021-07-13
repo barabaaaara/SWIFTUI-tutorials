@@ -18,6 +18,10 @@ struct LandmarkRow: View {
                 .cornerRadius(15)//角を丸くする時に使う
             Text(landmark.name)
             Spacer()
+            if landmark.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
